@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <app-product-item
+    *ngFor="let singleProduct of products"
+    [product]="singleProduct"
+    ></app-product-item>
+  </div>
+</div>
+<!-- onSelectedProduct is used to catch the event triggered by product-item -->
